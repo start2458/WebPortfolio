@@ -122,31 +122,37 @@ a{
 }
 .sokcho .lbtn{
     position: absolute;
-    left: 5px;
+    left: -20px;
     top: 30%;
     padding: 0 10px;
-    font-size: 64px;
+    width: 50px;
+    height: 50px;
     background: none;
     border: none;
     cursor: pointer;
     color: #000;
 }
-.lbtn:hover{
-    color: #fff;
+.lbtn img{
+    width: 70px;
+    height: 70px;
+    background: none;
 }
 .sokcho .rbtn{
     position: absolute;
-    right: 5px;
+    right: 20px;
     top: 30%;
     padding: 0 10px;
-    font-size: 64px;
+    width: 50px;
+    height: 50px;
     background: none;
     border: none;
     cursor: pointer;
     color: #000;
 }
-.rbtn:hover{
-    color: #fff;
+.rbtn img{
+    width: 70px;
+    height: 70px;
+    background: none;
 }
 .k_section .busan{
     width: 100%;
